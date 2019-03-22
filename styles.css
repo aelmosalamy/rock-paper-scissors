@@ -48,7 +48,7 @@ header > h1 {
 #computer-label {
     position: absolute;
     top: 30px;
-    right: -40px;
+    right: -30px;
 }
 
 .result {
@@ -90,7 +90,35 @@ header > h1 {
     margin-top: 30px;
 }
 
+.footnotes {
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+}
 
+#credits-label {
+    right: 20px;
+}
+
+#credits-label > a {
+    color: white;
+}
+
+#reset-label {
+    padding: 10px;
+    border: solid 2px;
+    left: 20px;
+    transition: all 0.3s ease;
+}
+
+#reset-label:hover {
+    cursor: pointer;
+    color: wheat;
+}
 
 
 
